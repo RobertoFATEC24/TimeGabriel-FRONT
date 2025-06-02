@@ -4,7 +4,7 @@
       <div class="flex justify-center mb-6">
         <div class="flex items-center">
           <CubeIcon class="h-6 w-6 mr-2" />
-          <h1 class="text-2xl font-bold">Mini Mercado</h1>
+          <h1 class="text-2xl font-bold">Mini Mercado Ideal</h1>
         </div>
       </div>
 
@@ -51,8 +51,8 @@
 import { ref } from "vue";
 import { useRouter } from "vue-router";
 import { CubeIcon, MailIcon, LockClosedIcon } from "@heroicons/vue/outline";
-import BaseInput from "@/components/ui/BaseInput.vue";
-import BaseButton from "@/components/ui/BaseButton.vue";
+import BaseInput from "@/components/ui/Login/BaseInput.vue";
+import BaseButton from "@/components/ui/Login/BaseButton.vue";
 import { useAuth } from "@/composables/useAuth";
 
 const router = useRouter();
